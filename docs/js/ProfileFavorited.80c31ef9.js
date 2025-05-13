@@ -1,2 +1,2 @@
 "use strict";(self["webpackChunkrealworld_vue"]=self["webpackChunkrealworld_vue"]||[]).push([[877],{306:function(e,r,t){t.r(r),t.d(r,{default:function(){return l}});var a=t(252);const n={class:"profile-page"};function i(e,r,t,i,o,u){const s=(0,a.up)("RwvArticleList");return(0,a.wg)(),(0,a.iD)("div",n,[(0,a.Wm)(s,{favorited:u.favorited,"items-per-page":5},null,8,["favorited"])])}var o=t(603),u={name:"RwvProfileFavorited",components:{RwvArticleList:o.Z},computed:{favorited(){return this.$route.params.username}}},s=t(744);const c=(0,s.Z)(u,[["render",i]]);var l=c}}]);
-//# sourceMappingURL=ProfileFavorited.9ea11920.js.map
+//# sourceMappingURL=ProfileFavorited.80c31ef9.js.map
