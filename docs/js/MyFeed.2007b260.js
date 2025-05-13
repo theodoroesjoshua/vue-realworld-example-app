@@ -1,2 +1,29 @@
-"use strict";(self["webpackChunkrealworld_vue"]=self["webpackChunkrealworld_vue"]||[]).push([[676],{420:function(e,r,n){n.r(r),n.d(r,{default:function(){return l}});var t=n(252);const c={class:"home-my-feed"};function s(e,r,n,s,u,o){const a=(0,t.up)("RwvArticleList");return(0,t.wg)(),(0,t.iD)("div",c,[(0,t.Wm)(a,{type:"feed"})])}var u=n(603),o={name:"rwv-home-my-feed",components:{RwvArticleList:u.Z}},a=n(744);const i=(0,a.Z)(o,[["render",s]]);var l=i}}]);
+"use strict";
+(self["webpackChunkrealworld_vue"] =
+  self["webpackChunkrealworld_vue"] || []).push([
+  [676],
+  {
+    420: function (e, r, n) {
+      n.r(r),
+        n.d(r, {
+          default: function () {
+            return l;
+          }
+        });
+      var t = n(252);
+      const c = { class: "home-my-feed" };
+      function s(e, r, n, s, u, o) {
+        const a = (0, t.up)("RwvArticleList");
+        return (
+          (0, t.wg)(), (0, t.iD)("div", c, [(0, t.Wm)(a, { type: "feed" })])
+        );
+      }
+      var u = n(603),
+        o = { name: "rwv-home-my-feed", components: { RwvArticleList: u.Z } },
+        a = n(744);
+      const i = (0, a.Z)(o, [["render", s]]);
+      var l = i;
+    }
+  }
+]);
 //# sourceMappingURL=MyFeed.2007b260.js.map

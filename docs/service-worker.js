@@ -1,2 +1,57 @@
-if(!self.define){let e,s={};const i=(i,r)=>(i=new URL(i+".js",r).href,s[i]||new Promise((s=>{if("document"in self){const e=document.createElement("script");e.src=i,e.onload=s,document.head.appendChild(e)}else e=i,importScripts(i),s()})).then((()=>{let e=s[i];if(!e)throw new Error(`Module ${i} didn’t register its module`);return e})));self.define=(r,l)=>{const n=e||("document"in self?document.currentScript.src:"")||location.href;if(s[n])return;let o={};const u=e=>i(e,n),t={module:{uri:n},exports:o,require:u};s[n]=Promise.all(r.map((e=>t[e]||u(e)))).then((e=>(l(...e),o)))}}define(["./workbox-db5fc017"],(function(e){"use strict";e.setCacheNameDetails({prefix:"realworld-vue"}),self.addEventListener("message",(e=>{e.data&&"SKIP_WAITING"===e.data.type&&self.skipWaiting()})),e.precacheAndRoute([{url:"/index.html",revision:"557a371f06b15f850beaaa070daf1a71"},{url:"/js/Article.cd3688db.js",revision:null},{url:"/js/ArticleEdit.642385e9.js",revision:null},{url:"/js/HomeTag.d240e83c.js",revision:null},{url:"/js/Login.a76e5546.js",revision:null},{url:"/js/MyFeed.2007b260.js",revision:null},{url:"/js/Profile.8fa3ecc0.js",revision:null},{url:"/js/ProfileArticles.6c1d9e6c.js",revision:null},{url:"/js/ProfileFavorited.80c31ef9.js",revision:null},{url:"/js/Register.babaa8da.js",revision:null},{url:"/js/Settings.0d05c253.js",revision:null},{url:"/js/app.5457f62f.js",revision:null},{url:"/js/chunk-vendors.d8c42378.js",revision:null},{url:"/manifest.json",revision:"3723b7f0dd90c95111059c3f9053d9ec"},{url:"/robots.txt",revision:"735ab4f94fbcd57074377afca324c813"}],{})}));
+if (!self.define) {
+  let e,
+    s = {};
+  const i = (i, r) => (
+    (i = new URL(i + ".js", r).href),
+    s[i] ||
+      new Promise((s) => {
+        if ("document" in self) {
+          const e = document.createElement("script");
+          (e.src = i), (e.onload = s), document.head.appendChild(e);
+        } else (e = i), importScripts(i), s();
+      }).then(() => {
+        let e = s[i];
+        if (!e) throw new Error(`Module ${i} didn’t register its module`);
+        return e;
+      })
+  );
+  self.define = (r, l) => {
+    const n =
+      e ||
+      ("document" in self ? document.currentScript.src : "") ||
+      location.href;
+    if (s[n]) return;
+    let o = {};
+    const u = (e) => i(e, n),
+      t = { module: { uri: n }, exports: o, require: u };
+    s[n] = Promise.all(r.map((e) => t[e] || u(e))).then((e) => (l(...e), o));
+  };
+}
+define(["./workbox-db5fc017"], function (e) {
+  "use strict";
+  e.setCacheNameDetails({ prefix: "realworld-vue" }),
+    self.addEventListener("message", (e) => {
+      e.data && "SKIP_WAITING" === e.data.type && self.skipWaiting();
+    }),
+    e.precacheAndRoute(
+      [
+        { url: "/index.html", revision: "557a371f06b15f850beaaa070daf1a71" },
+        { url: "/js/Article.cd3688db.js", revision: null },
+        { url: "/js/ArticleEdit.642385e9.js", revision: null },
+        { url: "/js/HomeTag.d240e83c.js", revision: null },
+        { url: "/js/Login.a76e5546.js", revision: null },
+        { url: "/js/MyFeed.2007b260.js", revision: null },
+        { url: "/js/Profile.8fa3ecc0.js", revision: null },
+        { url: "/js/ProfileArticles.6c1d9e6c.js", revision: null },
+        { url: "/js/ProfileFavorited.80c31ef9.js", revision: null },
+        { url: "/js/Register.babaa8da.js", revision: null },
+        { url: "/js/Settings.0d05c253.js", revision: null },
+        { url: "/js/app.5457f62f.js", revision: null },
+        { url: "/js/chunk-vendors.d8c42378.js", revision: null },
+        { url: "/manifest.json", revision: "3723b7f0dd90c95111059c3f9053d9ec" },
+        { url: "/robots.txt", revision: "735ab4f94fbcd57074377afca324c813" }
+      ],
+      {}
+    );
+});
 //# sourceMappingURL=service-worker.js.map

@@ -1,2 +1,42 @@
-"use strict";(self["webpackChunkrealworld_vue"]=self["webpackChunkrealworld_vue"]||[]).push([[526],{656:function(e,r,t){t.r(r),t.d(r,{default:function(){return l}});var u=t(252);const n={class:"profile-page"};function a(e,r,t,a,o,s){const c=(0,u.up)("RwvArticleList");return(0,u.wg)(),(0,u.iD)("div",n,[(0,u.Wm)(c,{author:s.author,"items-per-page":5},null,8,["author"])])}var o=t(603),s={name:"RwvProfileArticles",components:{RwvArticleList:o.Z},computed:{author(){return this.$route.params.username}}},c=t(744);const i=(0,c.Z)(s,[["render",a]]);var l=i}}]);
+"use strict";
+(self["webpackChunkrealworld_vue"] =
+  self["webpackChunkrealworld_vue"] || []).push([
+  [526],
+  {
+    656: function (e, r, t) {
+      t.r(r),
+        t.d(r, {
+          default: function () {
+            return l;
+          }
+        });
+      var u = t(252);
+      const n = { class: "profile-page" };
+      function a(e, r, t, a, o, s) {
+        const c = (0, u.up)("RwvArticleList");
+        return (
+          (0, u.wg)(),
+          (0, u.iD)("div", n, [
+            (0, u.Wm)(c, { author: s.author, "items-per-page": 5 }, null, 8, [
+              "author"
+            ])
+          ])
+        );
+      }
+      var o = t(603),
+        s = {
+          name: "RwvProfileArticles",
+          components: { RwvArticleList: o.Z },
+          computed: {
+            author() {
+              return this.$route.params.username;
+            }
+          }
+        },
+        c = t(744);
+      const i = (0, c.Z)(s, [["render", a]]);
+      var l = i;
+    }
+  }
+]);
 //# sourceMappingURL=ProfileArticles.6c1d9e6c.js.map
