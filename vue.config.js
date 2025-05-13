@@ -1,6 +1,6 @@
 module.exports = {
   outputDir: "./docs",
-  publicPath: "/vue-realworld-example-app/docs/",
+  publicPath: "/vue-realworld-example-app/",
   pluginOptions: {
     webpackBundleAnalyzer: {
       openAnalyzer: false,
