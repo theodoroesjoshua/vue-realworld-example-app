@@ -1,5 +1,4 @@
 module.exports = {
-  publicPath: "/vue-realworld-example-app/",
   pluginOptions: {
     webpackBundleAnalyzer: {
       openAnalyzer: false,
