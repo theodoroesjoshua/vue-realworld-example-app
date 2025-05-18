@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "description": "TodoMVC for the RealWorld™",
   "author": "Emmanuel Vilsbol <emmanuel@vilsbol.com>",
-  "engines": {
-    "node": "18.x"
-  },
+ 
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build --modern",
